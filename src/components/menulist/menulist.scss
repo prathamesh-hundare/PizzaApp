@@ -1,0 +1,12 @@
+.menulist{
+    border-radius: 6px;
+    overflow-y: hidden;
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 5px;
+    cursor: pointer;
+    &.active{
+        background-color: white;
+        color: black;
+    }
+}
